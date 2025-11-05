@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secundaria - Biblioteca Virtual MINEDU</title>
+    <link rel="stylesheet" href="../src/css/styles.css">
+    <link rel="stylesheet" href="../src/css/components.css">
+    <link rel="stylesheet" href="../src/css/responsive.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Nivel Secundaria</h1>
+            <p class="subtitle">Selecciona el grado</p>
+        </div>
+    </header>
+
+    <nav class="breadcrumb">
+        <div class="container">
+            <a href="../index.html">Inicio</a> > <span>Secundaria</span>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="courses-section">
+            <div class="container">
+                <h2>Cursos</h2>
+                <div class="courses-grid" id="coursesGrid">
+                    <div class="course-card" data-grade="1">
+                        <h3>1° de Secundaria</h3>
+                        <button class="btn btn-secondary" onclick="navigateToCourse('secundaria', 1)">Ver materias</button>
+                    </div>
+                    <div class="course-card" data-grade="2">
+                        <h3>2° de Secundaria</h3>
+                        <button class="btn btn-secondary" onclick="navigateToCourse('secundaria', 2)">Ver materias</button>
+                    </div>
+                    <div class="course-card" data-grade="3">
+                        <h3>3° de Secundaria</h3>
+                        <button class="btn btn-secondary" onclick="navigateToCourse('secundaria', 3)">Ver materias</button>
+                    </div>
+                    <div class="course-card" data-grade="4">
+                        <h3>4° de Secundaria</h3>
+                        <button class="btn btn-secondary" onclick="navigateToCourse('secundaria', 4)">Ver materias</button>
+                    </div>
+                    <div class="course-card" data-grade="5">
+                        <h3>5° de Secundaria</h3>
+                        <button class="btn btn-secondary" onclick="navigateToCourse('secundaria', 5)">Ver materias</button>
+                    </div>
+                    <div class="course-card" data-grade="6">
+                        <h3>6° de Secundaria</h3>
+                        <button class="btn btn-secondary" onclick="navigateToCourse('secundaria', 6)">Ver materias</button>
+                    </div>
+                </div>
+                <div class="back-button-container">
+                    <button class="btn btn-back" onclick="window.location.href='../index.html'">← Volver a niveles</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Biblioteca Virtual MINEDU - Elmer & Gilbert</p>
+        </div>
+    </footer>
+
+    <script src="../src/js/navigation.js"></script>
+    <script src="../src/js/resources.js"></script>
+</body>
+</html>

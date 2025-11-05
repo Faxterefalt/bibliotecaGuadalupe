@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materiales - Biblioteca Virtual MINEDU</title>
+    <link rel="stylesheet" href="../src/css/styles.css">
+    <link rel="stylesheet" href="../src/css/components.css">
+    <link rel="stylesheet" href="../src/css/responsive.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 id="pageTitle">Materiales de Lenguaje - 4° de Primaria</h1>
+            <p class="subtitle">Descarga los recursos disponibles</p>
+        </div>
+    </header>
+
+    <nav class="breadcrumb">
+        <div class="container" id="breadcrumbContainer">
+            <a href="../index.html">Inicio</a> > <a href="primaria.html">Primaria</a> > <a href="curso.html?nivel=primaria&grado=4">4° de Primaria</a> > <span>Lenguaje</span>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="materials-section">
+            <div class="container">
+                <!-- Buscador -->
+                <div class="search-box">
+                    <input 
+                        type="text" 
+                        id="searchInput" 
+                        class="search-input" 
+                        placeholder="🔍 Buscar por título, autor o descripción..."
+                    >
+                </div>
+
+                <h2>Materiales Disponibles</h2>
+                <div class="materials-grid" id="materialsGrid">
+                    <!-- Los materiales se cargarán dinámicamente aquí -->
+                </div>
+
+                <div class="back-button-container">
+                    <button class="btn btn-back" id="backButton">← Volver a materias</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Biblioteca Virtual MINEDU - Elmer & Gilbert</p>
+        </div>
+    </footer>
+
+    <script src="../src/js/navigation.js"></script>
+    <script src="../src/js/resources.js"></script>
+    <script>
+        let allMaterials = [];
+        let currentParams = {};
+        
+        document.addEventListener('DOMContentLoaded', async function() {
+            await loadResources();
+            const params = getURLParams();
+            currentParams = params; // Guardar parámetros
+            const nivel = params.nivel;
+            const grado = params.grado;
+            const materia = params.materia;
+
+            if (!nivel || !grado || !materia) {
+                window.location.href = '../index.html';
+                return;
+            }
+
+            // Actualizar título
+            const nivelCapitalized = nivel.charAt(0).toUpperCase() + nivel.slice(1);
+            document.getElementById('pageTitle').textContent = `Materiales de ${materia} - ${grado}° de ${nivelCapitalized}`;
+
+            createBreadcrumb([
+                { text: nivelCapitalized, url: `${nivel}.html` },
+                { text: `${grado}° de ${nivelCapitalized}`, url: `curso.html?nivel=${nivel}&grado=${grado}` },
+                { text: materia, url: '#' }
+            ]);
+
+            allMaterials = getMaterials(nivel, grado, materia);
+            
+            if (!allMaterials || allMaterials.length === 0) {
+                document.getElementById('materialsGrid').innerHTML = 
+                    '<div class="no-results"><p>No hay materiales disponibles para esta materia.</p></div>';
+                return;
+            }
+
+            renderMaterialCards(allMaterials, 'materialsGrid');
+
+            const searchInput = document.getElementById('searchInput');
+            searchInput.addEventListener('input', function(e) {
+                const searchTerm = e.target.value;
+                const filteredMaterials = filterMaterials(allMaterials, searchTerm);
+                renderMaterialCards(filteredMaterials, 'materialsGrid');
+            });
+
+            // Configurar botón de volver - CORREGIDO
+            document.getElementById('backButton').addEventListener('click', function() {
+                window.location.href = `curso.html?nivel=${currentParams.nivel}&grado=${currentParams.grado}`;
+            });
+        });
+    </script>
+</body>
+</html>

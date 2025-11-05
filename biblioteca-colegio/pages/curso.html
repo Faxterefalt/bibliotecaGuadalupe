@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materias - Biblioteca Virtual MINEDU</title>
+    <link rel="stylesheet" href="../src/css/styles.css">
+    <link rel="stylesheet" href="../src/css/components.css">
+    <link rel="stylesheet" href="../src/css/responsive.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 id="pageTitle">Primaria - 4° de Primaria</h1>
+            <p class="subtitle">Selecciona una materia</p>
+        </div>
+    </header>
+
+    <nav class="breadcrumb">
+        <div class="container" id="breadcrumbContainer">
+            <a href="../index.html">Inicio</a> > <a href="primaria.html">Primaria</a> > <span>4° de Primaria</span>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="subjects-section">
+            <div class="container">
+                <h2>Materias Disponibles</h2>
+                <div class="subjects-grid" id="subjectsGrid">
+                    <!-- Las materias se cargarán dinámicamente aquí -->
+                </div>
+                <div class="back-button-container">
+                    <button class="btn btn-back" id="backButton">← Volver a cursos</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Biblioteca Virtual MINEDU - Elmer & Gilbert</p>
+        </div>
+    </footer>
+
+    <script src="../src/js/navigation.js"></script>
+    <script src="../src/js/resources.js"></script>
+    <script>
+        let currentNivel = '';
+        
+        document.addEventListener('DOMContentLoaded', async function() {
+            await loadResources();
+            const params = getURLParams();
+            const nivel = params.nivel;
+            const grado = params.grado;
+            
+            currentNivel = nivel;
+
+            if (!nivel || !grado) {
+                window.location.href = '../index.html';
+                return;
+            }
+
+            const nivelCapitalized = nivel.charAt(0).toUpperCase() + nivel.slice(1);
+            document.getElementById('pageTitle').textContent = `${nivelCapitalized} - ${grado}° de ${nivelCapitalized}`;
+
+            createBreadcrumb([
+                { text: nivelCapitalized, url: `${nivel}.html` },
+                { text: `${grado}° de ${nivelCapitalized}`, url: '#' }
+            ]);
+
+            // Cargar materias
+            const subjects = getSubjects(nivel, grado);
+            const subjectsGrid = document.getElementById('subjectsGrid');
+
+            if (!subjects || subjects.length === 0) {
+                subjectsGrid.innerHTML = '<div class="no-results"><p>No hay materias disponibles para este grado.</p></div>';
+                return;
+            }
+
+            subjectsGrid.innerHTML = subjects.map(subject => {
+                const info = getSubjectInfo(subject);
+                const materialsCount = countMaterials(nivel, grado, subject);
+                
+                return `
+                    <div class="subject-card" data-subject="${subject}">
+                        <span class="subject-icon">${info.icon}</span>
+                        <h3>${subject}</h3>
+                        <p class="subject-description">${info.description}</p>
+                        <span class="subject-materials-count">
+                            📄 ${materialsCount} ${materialsCount === 1 ? 'recurso' : 'recursos'} disponible${materialsCount === 1 ? '' : 's'}
+                        </span>
+                        <button class="btn btn-secondary" onclick="navigateToSubject('${nivel}', '${grado}', '${subject}')">
+                            Ver materiales
+                        </button>
+                    </div>
+                `;
+            }).join('');
+
+            document.getElementById('backButton').onclick = function() {
+                window.location.href = nivel + '.html';
+            };
+        });
+    </script>
+</body>
+</html>

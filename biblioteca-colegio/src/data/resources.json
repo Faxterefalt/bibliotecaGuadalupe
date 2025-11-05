@@ -1,0 +1,193 @@
+{
+  "primaria": {
+    "4": {
+      "Lenguaje": {
+        "materiales": [
+          {
+            "id": "len4_texto",
+            "titulo": "Texto Lenguaje 4° - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "45 MB",
+            "grado": 4,
+            "descripcion": "Texto oficial de Lenguaje para 4° de Primaria. Desarrolla competencias de lectura, escritura y comunicación oral.",
+            "url": "../src/data/4toprimariaminedu.pdf"
+          },
+          {
+            "id": "len4_lecturas",
+            "titulo": "Lecturas 4°",
+            "tipo": "complementario",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "25 MB",
+            "grado": 4,
+            "descripcion": "Colección de lecturas seleccionadas para desarrollar comprensión lectora y vocabulario.",
+            "url": "#"
+          },
+          {
+            "id": "len4_guia",
+            "titulo": "Guía de escritura",
+            "tipo": "guia",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "15 MB",
+            "grado": 4,
+            "descripcion": "Guía práctica para el desarrollo de habilidades de escritura creativa y académica.",
+            "url": "#"
+          }
+        ]
+      },
+      "Matemática": {
+        "materiales": [
+          {
+            "id": "mat4_texto",
+            "titulo": "Matemática 4° - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "50 MB",
+            "grado": 4,
+            "descripcion": "Texto oficial de Matemática para 4° de Primaria. Incluye operaciones, geometría y resolución de problemas.",
+            "url": "#"
+          },
+          {
+            "id": "mat4_ejercicios",
+            "titulo": "Ejercicios 4°",
+            "tipo": "cuaderno_trabajo",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "30 MB",
+            "grado": 4,
+            "descripcion": "Cuaderno de ejercicios prácticos para reforzar conceptos matemáticos.",
+            "url": "#"
+          },
+          {
+            "id": "mat4_guia",
+            "titulo": "Guía didáctica",
+            "tipo": "guia",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "20 MB",
+            "grado": 4,
+            "descripcion": "Guía para docentes con estrategias metodológicas y recursos didácticos.",
+            "url": "#"
+          }
+        ]
+      },
+      "Ciencias Naturales": {
+        "materiales": [
+          {
+            "id": "cn4_texto",
+            "titulo": "Ciencias Naturales 4° - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "55 MB",
+            "grado": 4,
+            "descripcion": "Texto oficial de Ciencias Naturales. Explora el mundo natural, seres vivos y fenómenos científicos.",
+            "url": "#"
+          },
+          {
+            "id": "cn4_proyectos",
+            "titulo": "Proyectos 4°",
+            "tipo": "complementario",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "35 MB",
+            "grado": 4,
+            "descripcion": "Proyectos científicos prácticos para desarrollar habilidades de investigación.",
+            "url": "#"
+          },
+          {
+            "id": "cn4_fichas",
+            "titulo": "Fichas prácticas",
+            "tipo": "cuaderno_trabajo",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "25 MB",
+            "grado": 4,
+            "descripcion": "Fichas de actividades experimentales y de observación científica.",
+            "url": "#"
+          }
+        ]
+      },
+      "Ciencias Sociales": {
+        "materiales": [
+          {
+            "id": "cs4_texto",
+            "titulo": "Ciencias Sociales 4° - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "48 MB",
+            "grado": 4,
+            "descripcion": "Texto oficial de Ciencias Sociales. Estudia historia, geografía y ciudadanía.",
+            "url": "#"
+          },
+          {
+            "id": "cs4_geografia",
+            "titulo": "Geografía e historia 4°",
+            "tipo": "complementario",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "40 MB",
+            "grado": 4,
+            "descripcion": "Material complementario sobre geografía boliviana e historia nacional.",
+            "url": "#"
+          },
+          {
+            "id": "cs4_actividades",
+            "titulo": "Actividades de aula",
+            "tipo": "cuaderno_trabajo",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "22 MB",
+            "grado": 4,
+            "descripcion": "Actividades interactivas para desarrollar pensamiento crítico y social.",
+            "url": "#"
+          }
+        ]
+      },
+      "Inglés": {
+        "materiales": [
+          {
+            "id": "ing4_texto",
+            "titulo": "Inglés 4° - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "42 MB",
+            "grado": 4,
+            "descripcion": "Texto oficial de Inglés. Desarrolla habilidades de comprensión, expresión oral y escrita.",
+            "url": "#"
+          },
+          {
+            "id": "ing4_vocabulario",
+            "titulo": "Guía de vocabulario 4°",
+            "tipo": "complementario",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "18 MB",
+            "grado": 4,
+            "descripcion": "Guía ilustrada de vocabulario temático con ejercicios prácticos.",
+            "url": "#"
+          },
+          {
+            "id": "ing4_audios",
+            "titulo": "Audios y prácticas",
+            "tipo": "multimedia",
+            "autor": "MINEDU",
+            "formato": "ZIP",
+            "tamaño": "120 MB",
+            "grado": 4,
+            "descripcion": "Archivos de audio para práctica de pronunciación y comprensión auditiva.",
+            "url": "#"
+          }
+        ]
+      }
+    }
+  },
+  "inicial": {},
+  "secundaria": {}
+}

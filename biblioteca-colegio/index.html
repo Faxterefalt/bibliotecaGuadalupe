@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Virtual - MINEDU</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/components.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <img src="src/img/logocolegio.png" alt="Logo Colegio" class="header-logo">
+                <div class="header-text">
+                    <h1>Unidad Educativa Técnico Humanístico Guadalupe</h1>
+                    <p class="subtitle">Biblioteca Virtual — Recursos digitales oficiales (MINEDU)</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <!-- Buscador Global -->
+        <section class="search-section">
+            <div class="container">
+                <h2>Buscar Recursos</h2>
+                <div class="search-box">
+                    <input 
+                        type="text" 
+                        id="globalSearchInput" 
+                        class="search-input" 
+                        placeholder="🔍 Buscar por título, autor, materia o nivel educativo..."
+                    >
+                </div>
+                <div id="searchResults" class="search-results-container" style="display: none;">
+                    <h3>Resultados de búsqueda (<span id="resultsCount">0</span>)</h3>
+                    <div class="materials-grid" id="searchResultsGrid">
+                        <!-- Los resultados se cargarán dinámicamente aquí -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <div class="container">
+                <h2>Sobre nosotros</h2>
+                <p>La <strong>Unidad Educativa Técnico Humanístico Guadalupe</strong> es una institución comprometida con la formación integral y la excelencia académica. Con un enfoque técnico-humanístico, buscamos desarrollar en nuestros estudiantes competencias científicas, pensamiento crítico, habilidades técnicas y valores éticos.</p>
+                <p>Desde programas de inicial hasta secundaria, ofrecemos recursos pedagógicos actualizados, actividades prácticas y materiales oficiales del Ministerio de Educación de Bolivia (MINEDU) para apoyar el aprendizaje en el aula y en casa.</p>
+            </div>
+        </section>
+
+        <section class="levels-section" id="levelsSection">
+            <div class="container">
+                <h2>Selecciona el nivel</h2>
+                <div class="levels-grid">
+                    <div class="level-card" data-level="inicial">
+                        <h3>Nivel Inicial</h3>
+                        <p>Materiales y cuadernos para Prekínder y Kínder (actividades, cuentos y guías).</p>
+                        <button class="btn btn-primary" onclick="navigateToLevel('inicial')">Explorar Inicial</button>
+                    </div>
+                    <div class="level-card" data-level="primaria">
+                        <h3>Nivel Primaria</h3>
+                        <p>Textos oficiales de aprendizaje para 1° a 6° de primaria (MINEDU).</p>
+                        <button class="btn btn-primary" onclick="navigateToLevel('primaria')">Explorar Primaria</button>
+                    </div>
+                    <div class="level-card" data-level="secundaria">
+                        <h3>Nivel Secundaria</h3>
+                        <p>Textos de apoyo y guías para 1° a 6° de secundaria (áreas científicas, sociales y técnicas).</p>
+                        <button class="btn btn-primary" onclick="navigateToLevel('secundaria')">Explorar Secundaria</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Biblioteca Virtual MINEDU - Elmer & Gilbert</p>
+        </div>
+    </footer>
+
+    <script src="src/js/main.js"></script>
+    <script src="src/js/navigation.js"></script>
+    <script src="src/js/resources.js"></script>
+    <script src="src/js/search.js"></script>
+</body>
+</html>
