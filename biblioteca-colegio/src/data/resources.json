@@ -1,5 +1,193 @@
 {
+  "inicial": {
+    "prekinder": {
+      "Tecnología y Producción": {
+        "materiales": [
+          {
+            "id": "pre_tec_prod",
+            "titulo": "Cartilla Tecnología y Producción - Inicial",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "18 MB",
+            "grado": "Prekínder",
+            "descripcion": "Material de tecnología y producción para nivel inicial.",
+            "url": "../src/data/inicial_cartillatecnologiayproduccion.pdf"
+          }
+        ]
+      },
+      "Cosmos y Pensamiento": {
+        "materiales": [
+          {
+            "id": "pre_cosmos",
+            "titulo": "Cosmos y Pensamiento - Inicial",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "23 MB",
+            "grado": "Prekínder",
+            "descripcion": "Material de cosmos y pensamiento para nivel inicial.",
+            "url": "../src/data/inicial_cosmos_y_pensamiento.pdf"
+          }
+        ]
+      }
+    },
+    "kinder": {
+      "Tecnología y Producción": {
+        "materiales": [
+          {
+            "id": "kin_tec_prod",
+            "titulo": "Cartilla Tecnología y Producción - Inicial",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "18 MB",
+            "grado": "Kínder",
+            "descripcion": "Material de tecnología y producción para nivel inicial.",
+            "url": "../src/data/inicial_cartillatecnologiayproduccion.pdf"
+          }
+        ]
+      },
+      "Cosmos y Pensamiento": {
+        "materiales": [
+          {
+            "id": "kin_cosmos",
+            "titulo": "Cosmos y Pensamiento - Inicial",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "12 MB",
+            "grado": "Kínder",
+            "descripcion": "Material de cosmos y pensamiento para nivel inicial.",
+            "url": "../src/data/inicial_cosmos_y_pensamiento.pdf"
+          }
+        ]
+      }
+    }
+  },
   "primaria": {
+    "1": {
+      "General": {
+        "materiales": [
+          {
+            "id": "1p_texto",
+            "titulo": "Texto de Aprendizaje 1° Primaria - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "23 MB",
+            "grado": 1,
+            "descripcion": "Texto oficial de aprendizaje para 1° de Primaria. Material integral que desarrolla todas las competencias del nivel.",
+            "url": "../src/data/1p_textoaprendizaje.pdf"
+          }
+        ]
+      }
+    },
+    "2": {
+      "General": {
+        "materiales": [
+          {
+            "id": "2p_robotica",
+            "titulo": "Robótica 2° Primaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "38 MB",
+            "grado": 2,
+            "descripcion": "Material de robótica educativa para 2° de Primaria.",
+            "url": "../src/data/2p_robotica.pdf"
+          }
+        ]
+      },
+      "Inglés": {
+        "materiales": [
+          {
+            "id": "2p_ingles",
+            "titulo": "Inglés 2° Primaria - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "23 MB",
+            "grado": 2,
+            "descripcion": "Texto oficial de Inglés para 2° de Primaria.",
+            "url": "../src/data/2p_ingles.pdf"
+          }
+        ]
+      },
+      "Valores y Religiones": {
+        "materiales": [
+          {
+            "id": "2p_valores",
+            "titulo": "Valores y Religiones 2° Primaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "10 MB",
+            "grado": 2,
+            "descripcion": "Material de valores, espiritualidad y religiones para 2° de Primaria.",
+            "url": "../src/data/2p_valoresyreligiones.pdf"
+          }
+        ]
+      }
+    },
+    "3": {
+      "General": {
+        "materiales": [
+          {
+            "id": "3p_texto",
+            "titulo": "Texto de Aprendizaje 3° Primaria - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "48 MB",
+            "grado": 3,
+            "descripcion": "Texto oficial de aprendizaje para 3° de Primaria. Material integral que desarrolla todas las competencias del nivel.",
+            "url": "../src/data/3p_textoaprendizaje.pdf"
+          },
+          {
+            "id": "3p_robotica",
+            "titulo": "Robótica 3° Primaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "4 MB",
+            "grado": 3,
+            "descripcion": "Material de robótica educativa para 3° de Primaria.",
+            "url": "../src/data/3p_robotica.pdf"
+          }
+        ]
+      },
+      "Inglés": {
+        "materiales": [
+          {
+            "id": "3p_ingles",
+            "titulo": "Inglés 3° Primaria - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "13 MB",
+            "grado": 3,
+            "descripcion": "Texto oficial de Inglés para 3° de Primaria.",
+            "url": "../src/data/3p_ingles.pdf"
+          }
+        ]
+      },
+      "Valores y Religiones": {
+        "materiales": [
+          {
+            "id": "3p_valores",
+            "titulo": "Valores y Religiones 3° Primaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 3,
+            "descripcion": "Material de valores, espiritualidad y religiones para 3° de Primaria.",
+            "url": "../src/data/3p_valoresyreligiomes.pdf"
+          }
+        ]
+      }
+    },
     "4": {
       "Lenguaje": {
         "materiales": [
@@ -13,181 +201,589 @@
             "grado": 4,
             "descripcion": "Texto oficial de Lenguaje para 4° de Primaria. Desarrolla competencias de lectura, escritura y comunicación oral.",
             "url": "../src/data/4toprimariaminedu.pdf"
-          },
-          {
-            "id": "len4_lecturas",
-            "titulo": "Lecturas 4°",
-            "tipo": "complementario",
-            "autor": "MINEDU",
-            "formato": "PDF",
-            "tamaño": "25 MB",
-            "grado": 4,
-            "descripcion": "Colección de lecturas seleccionadas para desarrollar comprensión lectora y vocabulario.",
-            "url": "#"
-          },
-          {
-            "id": "len4_guia",
-            "titulo": "Guía de escritura",
-            "tipo": "guia",
-            "autor": "MINEDU",
-            "formato": "PDF",
-            "tamaño": "15 MB",
-            "grado": 4,
-            "descripcion": "Guía práctica para el desarrollo de habilidades de escritura creativa y académica.",
-            "url": "#"
           }
         ]
       },
-      "Matemática": {
+      "Robótica": {
         "materiales": [
           {
             "id": "mat4_texto",
-            "titulo": "Matemática 4° - MINEDU",
+            "titulo": "Texto Robótica 4° - MINEDU",
             "tipo": "libro_texto",
             "autor": "MINEDU",
             "formato": "PDF",
-            "tamaño": "50 MB",
+            "tamaño": "5 MB",
             "grado": 4,
-            "descripcion": "Texto oficial de Matemática para 4° de Primaria. Incluye operaciones, geometría y resolución de problemas.",
-            "url": "#"
-          },
-          {
-            "id": "mat4_ejercicios",
-            "titulo": "Ejercicios 4°",
-            "tipo": "cuaderno_trabajo",
-            "autor": "MINEDU",
-            "formato": "PDF",
-            "tamaño": "30 MB",
-            "grado": 4,
-            "descripcion": "Cuaderno de ejercicios prácticos para reforzar conceptos matemáticos.",
-            "url": "#"
-          },
-          {
-            "id": "mat4_guia",
-            "titulo": "Guía didáctica",
-            "tipo": "guia",
-            "autor": "MINEDU",
-            "formato": "PDF",
-            "tamaño": "20 MB",
-            "grado": 4,
-            "descripcion": "Guía para docentes con estrategias metodológicas y recursos didácticos.",
-            "url": "#"
-          }
-        ]
-      },
-      "Ciencias Naturales": {
-        "materiales": [
-          {
-            "id": "cn4_texto",
-            "titulo": "Ciencias Naturales 4° - MINEDU",
-            "tipo": "libro_texto",
-            "autor": "MINEDU",
-            "formato": "PDF",
-            "tamaño": "55 MB",
-            "grado": 4,
-            "descripcion": "Texto oficial de Ciencias Naturales. Explora el mundo natural, seres vivos y fenómenos científicos.",
-            "url": "#"
-          },
-          {
-            "id": "cn4_proyectos",
-            "titulo": "Proyectos 4°",
-            "tipo": "complementario",
-            "autor": "MINEDU",
-            "formato": "PDF",
-            "tamaño": "35 MB",
-            "grado": 4,
-            "descripcion": "Proyectos científicos prácticos para desarrollar habilidades de investigación.",
-            "url": "#"
-          },
-          {
-            "id": "cn4_fichas",
-            "titulo": "Fichas prácticas",
-            "tipo": "cuaderno_trabajo",
-            "autor": "MINEDU",
-            "formato": "PDF",
-            "tamaño": "25 MB",
-            "grado": 4,
-            "descripcion": "Fichas de actividades experimentales y de observación científica.",
-            "url": "#"
-          }
-        ]
-      },
-      "Ciencias Sociales": {
-        "materiales": [
-          {
-            "id": "cs4_texto",
-            "titulo": "Ciencias Sociales 4° - MINEDU",
-            "tipo": "libro_texto",
-            "autor": "MINEDU",
-            "formato": "PDF",
-            "tamaño": "48 MB",
-            "grado": 4,
-            "descripcion": "Texto oficial de Ciencias Sociales. Estudia historia, geografía y ciudadanía.",
-            "url": "#"
-          },
-          {
-            "id": "cs4_geografia",
-            "titulo": "Geografía e historia 4°",
-            "tipo": "complementario",
-            "autor": "MINEDU",
-            "formato": "PDF",
-            "tamaño": "40 MB",
-            "grado": 4,
-            "descripcion": "Material complementario sobre geografía boliviana e historia nacional.",
-            "url": "#"
-          },
-          {
-            "id": "cs4_actividades",
-            "titulo": "Actividades de aula",
-            "tipo": "cuaderno_trabajo",
-            "autor": "MINEDU",
-            "formato": "PDF",
-            "tamaño": "22 MB",
-            "grado": 4,
-            "descripcion": "Actividades interactivas para desarrollar pensamiento crítico y social.",
-            "url": "#"
+            "descripcion": "Texto oficial de Robótica para 4° de Primaria. Desarrolla competencias de razonamiento lógico y resolución de problemas.",
+            "url": "../src/data/4p_robotica.pdf"
           }
         ]
       },
       "Inglés": {
         "materiales": [
           {
-            "id": "ing4_texto",
-            "titulo": "Inglés 4° - MINEDU",
+            "id": "4p_ingles",
+            "titulo": "Inglés 4° Primaria - MINEDU",
             "tipo": "libro_texto",
             "autor": "MINEDU",
             "formato": "PDF",
-            "tamaño": "42 MB",
+            "tamaño": "10 MB",
             "grado": 4,
-            "descripcion": "Texto oficial de Inglés. Desarrolla habilidades de comprensión, expresión oral y escrita.",
-            "url": "#"
-          },
+            "descripcion": "Texto oficial de Inglés para 4° de Primaria.",
+            "url": "../src/data/4p_ingles.pdf"
+          }
+        ]
+      },
+      "Valores y Religiones": {
+        "materiales": [
           {
-            "id": "ing4_vocabulario",
-            "titulo": "Guía de vocabulario 4°",
-            "tipo": "complementario",
+            "id": "4p_valores",
+            "titulo": "Valores y Religiones 4° Primaria",
+            "tipo": "libro_texto",
             "autor": "MINEDU",
             "formato": "PDF",
-            "tamaño": "18 MB",
+            "tamaño": "4 MB",
             "grado": 4,
-            "descripcion": "Guía ilustrada de vocabulario temático con ejercicios prácticos.",
-            "url": "#"
+            "descripcion": "Material de valores, espiritualidad y religiones para 4° de Primaria.",
+            "url": "../src/data/4p_valoresyreligiones.pdf"
+          }
+        ]
+      }
+    },
+    "5": {
+      "General": {
+        "materiales": [
+          {
+            "id": "5p_texto",
+            "titulo": "Texto de Aprendizaje 5° Primaria - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "32 MB",
+            "grado": 5,
+            "descripcion": "Texto oficial de aprendizaje para 5° de Primaria. Material integral que desarrolla todas las competencias del nivel.",
+            "url": "../src/data/5p_textoaprendizaje.pdf"
           },
           {
-            "id": "ing4_audios",
-            "titulo": "Audios y prácticas",
-            "tipo": "multimedia",
+            "id": "5p_robotica",
+            "titulo": "Robótica 5° Primaria",
+            "tipo": "libro_texto",
             "autor": "MINEDU",
-            "formato": "ZIP",
-            "tamaño": "120 MB",
-            "grado": 4,
-            "descripcion": "Archivos de audio para práctica de pronunciación y comprensión auditiva.",
-            "url": "#"
+            "formato": "PDF",
+            "tamaño": "15 MB",
+            "grado": 5,
+            "descripcion": "Material de robótica educativa para 5° de Primaria.",
+            "url": "../src/data/5p_robotica.pdf"
+          }
+        ]
+      },
+      "Inglés": {
+        "materiales": [
+          {
+            "id": "5p_ingles",
+            "titulo": "Inglés 5° Primaria - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "10 MB",
+            "grado": 5,
+            "descripcion": "Texto oficial de Inglés para 5° de Primaria.",
+            "url": "../src/data/5p_ingles.pdf"
+          }
+        ]
+      },
+      "Música": {
+        "materiales": [
+          {
+            "id": "5p_musica",
+            "titulo": "Música 5° Primaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "8 MB",
+            "grado": 5,
+            "descripcion": "Material de educación musical para 5° de Primaria.",
+            "url": "../src/data/5p_musica.pdf"
+          }
+        ]
+      }
+    },
+    "6": {
+      "General": {
+        "materiales": [
+          {
+            "id": "6p_texto",
+            "titulo": "Texto de Aprendizaje 6° Primaria - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 6,
+            "descripcion": "Texto oficial de aprendizaje para 6° de Primaria. Material integral que desarrolla todas las competencias del nivel.",
+            "url": "../src/data/6p_textoaprendizaje.pdf"
+          },
+          {
+            "id": "6p_robotica",
+            "titulo": "Robótica 6° Primaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 6,
+            "descripcion": "Material de robótica educativa para 6° de Primaria.",
+            "url": "../src/data/6p_robotica.pdf"
+          }
+        ]
+      },
+      "Inglés": {
+        "materiales": [
+          {
+            "id": "6p_ingles",
+            "titulo": "Inglés 6° Primaria - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 6,
+            "descripcion": "Texto oficial de Inglés para 6° de Primaria.",
+            "url": "../src/data/6p_ingles.pdf"
+          }
+        ]
+      },
+      "Valores y Religiones": {
+        "materiales": [
+          {
+            "id": "6p_valores",
+            "titulo": "Valores y Religiones 6° Primaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 6,
+            "descripcion": "Material de valores, espiritualidad y religiones para 6° de Primaria.",
+            "url": "../src/data/6p_valoresyreligiones.pdf"
+          }
+        ]
+      },
+      "Artes Plásticas y Visuales": {
+        "materiales": [
+          {
+            "id": "6p_artes",
+            "titulo": "Artes Plásticas y Visuales 6° Primaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 6,
+            "descripcion": "Material de educación artística para 6° de Primaria.",
+            "url": "../src/data/6p_artesplasticasyvisuales.pdf"
           }
         ]
       }
     }
   },
-  "inicial": {},
-  "secundaria": {}
+  "secundaria": {
+    "1": {
+      "General": {
+        "materiales": [
+          {
+            "id": "1s_texto",
+            "titulo": "Texto de Aprendizaje 1° Secundaria - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 1,
+            "descripcion": "Texto oficial de aprendizaje para 1° de Secundaria. Material integral que desarrolla todas las competencias del nivel.",
+            "url": "../src/data/1s_textoaprendizaje.pdf"
+          }
+        ]
+      },
+      "Artes Plásticas y Visuales": {
+        "materiales": [
+          {
+            "id": "1s_artes",
+            "titulo": "Artes Plásticas y Visuales 1° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 1,
+            "descripcion": "Material de educación artística para 1° de Secundaria.",
+            "url": "../src/data/1s_artesplasticasyvisuales.pdf"
+          }
+        ]
+      },
+      "Filosofía y Psicología": {
+        "materiales": [
+          {
+            "id": "1s_filosofia",
+            "titulo": "Filosofía y Psicología 1° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 1,
+            "descripcion": "Material de filosofía y psicología para 1° de Secundaria.",
+            "url": "../src/data/1s_filosofiaypsicologia.pdf"
+          }
+        ]
+      },
+      "Música": {
+        "materiales": [
+          {
+            "id": "1s_musica",
+            "titulo": "Música 1° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 1,
+            "descripcion": "Material de educación musical para 1° de Secundaria.",
+            "url": "../src/data/1s_musica.pdf"
+          }
+        ]
+      }
+    },
+    "2": {
+      "General": {
+        "materiales": [
+          {
+            "id": "2s_texto",
+            "titulo": "Texto de Aprendizaje 2° Secundaria - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 2,
+            "descripcion": "Texto oficial de aprendizaje para 2° de Secundaria. Material integral que desarrolla todas las competencias del nivel.",
+            "url": "../src/data/2s_textoaprendizaje.pdf"
+          }
+        ]
+      },
+      "Artes Plásticas y Visuales": {
+        "materiales": [
+          {
+            "id": "2s_artes",
+            "titulo": "Artes Plásticas y Visuales 2° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 2,
+            "descripcion": "Material de educación artística para 2° de Secundaria.",
+            "url": "../src/data/2s_artesplasticasyvisuales.pdf"
+          }
+        ]
+      },
+      "Filosofía y Psicología": {
+        "materiales": [
+          {
+            "id": "2s_filosofia",
+            "titulo": "Filosofía y Psicología 2° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 2,
+            "descripcion": "Material de filosofía y psicología para 2° de Secundaria.",
+            "url": "../src/data/2s_filosofiaypsicologia.pdf"
+          }
+        ]
+      },
+      "Música": {
+        "materiales": [
+          {
+            "id": "2s_musica",
+            "titulo": "Música 2° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 2,
+            "descripcion": "Material de educación musical para 2° de Secundaria.",
+            "url": "../src/data/2s_musica.pdf"
+          }
+        ]
+      }
+    },
+    "3": {
+      "General": {
+        "materiales": [
+          {
+            "id": "3s_texto",
+            "titulo": "Texto de Aprendizaje 3° Secundaria - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 3,
+            "descripcion": "Texto oficial de aprendizaje para 3° de Secundaria. Material integral que desarrolla todas las competencias del nivel.",
+            "url": "../src/data/3s_textoaprendizaje.pdf"
+          }
+        ]
+      },
+      "Filosofía y Psicología": {
+        "materiales": [
+          {
+            "id": "3s_filosofia",
+            "titulo": "Filosofía y Psicología 3° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 3,
+            "descripcion": "Material de filosofía y psicología para 3° de Secundaria.",
+            "url": "../src/data/3s_filosofiaypsicologia.pdf"
+          }
+        ]
+      },
+      "Técnica Tecnológica General": {
+        "materiales": [
+          {
+            "id": "3s_tecnica",
+            "titulo": "Técnica Tecnológica General 3° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 3,
+            "descripcion": "Material de técnica y tecnología para 3° de Secundaria.",
+            "url": "../src/data/3s_tecnicatecnologicageneral.pdf"
+          }
+        ]
+      },
+      "Música": {
+        "materiales": [
+          {
+            "id": "3s_musica",
+            "titulo": "Música 3° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 3,
+            "descripcion": "Material de educación musical para 3° de Secundaria.",
+            "url": "../src/data/3s_musica.pdf"
+          }
+        ]
+      }
+    },
+    "4": {
+      "General": {
+        "materiales": [
+          {
+            "id": "4s_texto",
+            "titulo": "Texto de Aprendizaje 4° Secundaria - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 4,
+            "descripcion": "Texto oficial de aprendizaje para 4° de Secundaria. Material integral que desarrolla todas las competencias del nivel.",
+            "url": "../src/data/4s_textoaprendizaje.pdf"
+          }
+        ]
+      },
+      "Inglés": {
+        "materiales": [
+          {
+            "id": "4s_ingles",
+            "titulo": "Inglés 4° Secundaria - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 4,
+            "descripcion": "Texto oficial de Inglés para 4° de Secundaria.",
+            "url": "../src/data/4s_ingles.pdf"
+          }
+        ]
+      },
+      "Música": {
+        "materiales": [
+          {
+            "id": "4s_musica",
+            "titulo": "Música 4° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 4,
+            "descripcion": "Material de educación musical para 4° de Secundaria.",
+            "url": "../src/data/4s_musica.pdf"
+          }
+        ]
+      },
+      "Psicología y Filosofía": {
+        "materiales": [
+          {
+            "id": "4s_psicologia",
+            "titulo": "Psicología y Filosofía 4° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 4,
+            "descripcion": "Material de psicología y filosofía para 4° de Secundaria.",
+            "url": "../src/data/4s_psicologiayfilosofia.pdf"
+          }
+        ]
+      }
+    },
+    "5": {
+      "General": {
+        "materiales": [
+          {
+            "id": "5s_texto",
+            "titulo": "Texto de Aprendizaje 5° Secundaria - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 5,
+            "descripcion": "Texto oficial de aprendizaje para 5° de Secundaria. Material integral que desarrolla todas las competencias del nivel.",
+            "url": "../src/data/5s_textoaprendizaje.pdf"
+          }
+        ]
+      },
+      "Inglés": {
+        "materiales": [
+          {
+            "id": "5s_ingles",
+            "titulo": "Inglés 5° Secundaria - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 5,
+            "descripcion": "Texto oficial de Inglés para 5° de Secundaria.",
+            "url": "../src/data/5s_ingles.pdf"
+          }
+        ]
+      },
+      "Música": {
+        "materiales": [
+          {
+            "id": "5s_musica",
+            "titulo": "Música 5° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 5,
+            "descripcion": "Material de educación musical para 5° de Secundaria.",
+            "url": "../src/data/5s_musica.pdf"
+          }
+        ]
+      },
+      "Filosofía y Psicología": {
+        "materiales": [
+          {
+            "id": "5s_filosofia",
+            "titulo": "Filosofía y Psicología 5° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 5,
+            "descripcion": "Material de filosofía y psicología para 5° de Secundaria.",
+            "url": "../src/data/5s_filosofiaypsicologia.pdf"
+          }
+        ]
+      }
+    },
+    "6": {
+      "General": {
+        "materiales": [
+          {
+            "id": "6s_texto",
+            "titulo": "Texto de Aprendizaje 6° Secundaria - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "68 MB",
+            "grado": 6,
+            "descripcion": "Texto oficial de aprendizaje para 6° de Secundaria. Material integral que desarrolla todas las competencias del nivel.",
+            "url": "../src/data/6s_textoaprendizaje.pdf"
+          }
+        ]
+      },
+      "Artes Plásticas y Visuales": {
+        "materiales": [
+          {
+            "id": "6s_artes",
+            "titulo": "Artes Plásticas y Visuales 6° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "33 MB",
+            "grado": 6,
+            "descripcion": "Material de educación artística para 6° de Secundaria.",
+            "url": "../src/data/6s_artesplasticasyvisuales.pdf"
+          }
+        ]
+      },
+      "Filosofía y Psicología": {
+        "materiales": [
+          {
+            "id": "6s_filosofia",
+            "titulo": "Filosofía y Psicología 6° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "34 MB",
+            "grado": 6,
+            "descripcion": "Material de filosofía y psicología para 6° de Secundaria.",
+            "url": "../src/data/6s_filosofiaypsicologia.pdf"
+          }
+        ]
+      },
+      "Inglés": {
+        "materiales": [
+          {
+            "id": "6s_ingles",
+            "titulo": "Inglés 6° Secundaria - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "23 MB",
+            "grado": 6,
+            "descripcion": "Texto oficial de Inglés para 6° de Secundaria.",
+            "url": "../src/data/6s_ingles.pdf"
+          }
+        ]
+      },
+      "Música": {
+        "materiales": [
+          {
+            "id": "6s_musica",
+            "titulo": "Música 6° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "12 MB",
+            "grado": 6,
+            "descripcion": "Material de educación musical para 6° de Secundaria.",
+            "url": "../src/data/6s_musica.pdf"
+          }
+        ]
+      },
+      "Valores y Religiones": {
+        "materiales": [
+          {
+            "id": "6s_valores",
+            "titulo": "Valores y Religiones 6° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "10 MB",
+            "grado": 6,
+            "descripcion": "Material de valores, espiritualidad y religiones para 6° de Secundaria.",
+            "url": "../src/data/6s_valoresyreligiones.pdf"
+          }
+        ]
+      }
+    }
+  }
 }

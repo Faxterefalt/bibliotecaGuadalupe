@@ -1,6 +1,12 @@
 let resourcesData = null;
 
+
 const subjectInfo = {
+    'General': {
+        icon: '📚',
+        description: 'Material integral de aprendizaje oficial del MINEDU',
+        color: '#6366f1'
+    },
     'Lenguaje': {
         icon: '📚',
         description: 'Desarrollo de habilidades de lectura, escritura y comprensión lectora',
@@ -25,8 +31,49 @@ const subjectInfo = {
         icon: '🗣️',
         description: 'Aprendizaje del idioma inglés: vocabulario, gramática y conversación',
         color: '#ef4444'
+    },
+    'Música': {
+        icon: '🎵',
+        description: 'Educación musical, ritmo, melodía y apreciación artística',
+        color: '#ec4899'
+    },
+    'Artes Plásticas y Visuales': {
+        icon: '🎨',
+        description: 'Expresión artística, técnicas plásticas y visuales',
+        color: '#f97316'
+    },
+    'Filosofía y Psicología': {
+        icon: '🧠',
+        description: 'Pensamiento crítico, reflexión filosófica y psicología',
+        color: '#8b5cf6'
+    },
+    'Psicología y Filosofía': {
+        icon: '🧠',
+        description: 'Pensamiento crítico, reflexión filosófica y psicología',
+        color: '#8b5cf6'
+    },
+    'Valores y Religiones': {
+        icon: '✨',
+        description: 'Valores, espiritualidad y educación religiosa',
+        color: '#14b8a6'
+    },
+    'Técnica Tecnológica General': {
+        icon: '⚙️',
+        description: 'Fundamentos técnicos y tecnológicos aplicados',
+        color: '#64748b'
+    },
+    'Tecnología y Producción': {
+        icon: '🛠️',
+        description: 'Tecnología, producción y desarrollo técnico',
+        color: '#06b6d4'
+    },
+    'Cosmos y Pensamiento': {
+        icon: '🌌',
+        description: 'Cosmovisión, pensamiento y cultura',
+        color: '#a855f7'
     }
 };
+
 
 async function loadResources() {
     try {
