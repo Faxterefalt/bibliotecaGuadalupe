@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Tabs de galería
     const tabButtons = document.querySelectorAll('.tab-btn');
     const galleryContents = document.querySelectorAll('.gallery-content');
     
@@ -7,17 +6,14 @@ document.addEventListener('DOMContentLoaded', function() {
         button.addEventListener('click', function() {
             const level = this.dataset.level;
             
-            // Remover clase active de todos
             tabButtons.forEach(btn => btn.classList.remove('active'));
             galleryContents.forEach(content => content.classList.remove('active'));
             
-            // Añadir clase active al seleccionado
             this.classList.add('active');
             document.getElementById(`gallery-${level}`).classList.add('active');
         });
     });
     
-    // Modal de galería
     const modal = document.getElementById('galleryModal');
     const modalImage = document.getElementById('modalImage');
     const modalTitle = document.getElementById('modalTitle');
@@ -29,13 +25,11 @@ document.addEventListener('DOMContentLoaded', function() {
     let currentImages = [];
     let currentIndex = 0;
     
-    // Abrir modal al hacer clic en una imagen
     document.querySelectorAll('.gallery-item').forEach((item, index) => {
         item.addEventListener('click', function() {
             const galleryContent = this.closest('.gallery-content');
             const allItems = galleryContent.querySelectorAll('.gallery-item');
             
-            // Guardar todas las imágenes del nivel actual
             currentImages = Array.from(allItems).map(item => ({
                 src: item.dataset.img,
                 title: item.querySelector('h4').textContent,
@@ -49,7 +43,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Cerrar modal
     closeBtn.addEventListener('click', closeModal);
     modal.addEventListener('click', function(e) {
         if (e.target === modal) {
@@ -62,7 +55,6 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.style.overflow = 'auto';
     }
     
-    // Navegación en modal
     prevBtn.addEventListener('click', function() {
         currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length;
         showModalImage(currentIndex);
@@ -80,7 +72,6 @@ document.addEventListener('DOMContentLoaded', function() {
         modalDescription.textContent = image.description;
     }
     
-    // Navegación con teclado
     document.addEventListener('keydown', function(e) {
         if (!modal.classList.contains('active')) return;
         
