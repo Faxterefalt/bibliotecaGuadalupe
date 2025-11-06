@@ -1,5 +1,15 @@
 function navigateToLevel(level) {
-    window.location.href = `pages/${level}.html`;
+    // Detectar si ya estamos en la carpeta pages
+    const currentPath = window.location.pathname;
+    const isInPagesFolder = currentPath.includes('/pages/');
+    
+    if (isInPagesFolder) {
+        // Si estamos en /pages/, navegar directamente al archivo
+        window.location.href = `${level}.html`;
+    } else {
+        // Si estamos en la raíz, añadir pages/
+        window.location.href = `pages/${level}.html`;
+    }
 }
 
 function navigateToCourse(level, grade) {
@@ -24,7 +34,12 @@ function createBreadcrumb(items) {
     const breadcrumbContainer = document.querySelector('.breadcrumb .container');
     if (!breadcrumbContainer) return;
     
-    let html = '<a href="../index.html">Inicio</a>';
+    // Detectar si estamos en pages/
+    const currentPath = window.location.pathname;
+    const isInPagesFolder = currentPath.includes('/pages/');
+    const homeLink = isInPagesFolder ? 'inicio.html' : 'pages/inicio.html';
+    
+    let html = `<a href="${homeLink}">Inicio</a>`;
     
     items.forEach((item, index) => {
         if (index < items.length - 1) {

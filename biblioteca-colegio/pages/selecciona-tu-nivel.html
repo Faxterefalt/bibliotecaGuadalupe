@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecciona tu Nivel - Biblioteca Virtual MINEDU</title>
+    <link rel="stylesheet" href="../src/css/styles.css">
+    <link rel="stylesheet" href="../src/css/components.css">
+    <link rel="stylesheet" href="../src/css/responsive.css">
+    <link rel="stylesheet" href="../src/css/selecciona-tu-nivel.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="container">
+            <div class="nav-content">
+                <div class="brand">
+                    <img src="../src/img/logocolegio.png" alt="Logo Guadalupe" class="nav-logo">
+                    <span>Biblioteca Virtual</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="selecciona-tu-nivel.html" class="active">Selecciona tu Nivel</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Selecciona el Nivel Educativo</h1>
+            <p>Elige el nivel correspondiente para acceder a los recursos organizados por grado y materia</p>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="levels-section">
+            <div class="container">
+                <div class="levels-grid">
+                    <!-- Nivel Inicial -->
+                    <div class="level-card" data-level="inicial">
+                        <div class="level-icon">👶</div>
+                        <h3>Nivel Inicial</h3>
+                        <p class="level-description">Materiales y cuadernos para Prekínder y Kínder con actividades lúdicas, cuentos educativos y guías para el desarrollo integral.</p>
+                        
+                        <div class="level-info">
+                            <div class="info-item">
+                                <span class="info-icon">📚</span>
+                                <span>Actividades lúdicas</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-icon">🎨</span>
+                                <span>Desarrollo psicomotor</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-icon">📖</span>
+                                <span>Iniciación a lectoescritura</span>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-primary" onclick="navigateToLevel('inicial')">
+                            Explorar Inicial
+                        </button>
+                    </div>
+
+                    <!-- Nivel Primaria -->
+                    <div class="level-card featured" data-level="primaria">
+                        <div class="featured-badge">Más recursos</div>
+                        <div class="level-icon">📚</div>
+                        <h3>Nivel Primaria</h3>
+                        <p class="level-description">Textos oficiales de aprendizaje para 1° a 6° de primaria con contenido completo del MINEDU en todas las áreas curriculares.</p>
+                        
+                        <div class="level-info">
+                            <div class="info-item">
+                                <span class="info-icon">📊</span>
+                                <span>6 grados completos</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-icon">📝</span>
+                                <span>Todas las materias</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-icon">📚</span>
+                                <span>Textos y cuadernos de trabajo</span>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-primary" onclick="navigateToLevel('primaria')">
+                            Explorar Primaria
+                        </button>
+                    </div>
+
+                    <!-- Nivel Secundaria -->
+                    <div class="level-card" data-level="secundaria">
+                        <div class="level-icon">🎓</div>
+                        <h3>Nivel Secundaria</h3>
+                        <p class="level-description">Textos de apoyo y guías especializadas para 1° a 6° de secundaria en áreas científicas, sociales y técnicas con enfoque integral.</p>
+                        
+                        <div class="level-info">
+                            <div class="info-item">
+                                <span class="info-icon">🔬</span>
+                                <span>6 grados completos</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-icon">🌍</span>
+                                <span>Áreas especializadas</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-icon">⚙️</span>
+                                <span>Preparación técnica</span>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-primary" onclick="navigateToLevel('secundaria')">
+                            Explorar Secundaria
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Guía de uso -->
+        <section class="usage-guide">
+            <div class="container">
+                <h2>Guía de Uso por Usuario</h2>
+                <div class="guide-grid">
+                    <div class="guide-card">
+                        <div class="guide-icon">👨‍🏫</div>
+                        <h3>Para Docentes</h3>
+                        <p>Descarga materiales oficiales para planificar tus clases. Comparte enlaces directos con tus estudiantes a través de plataformas educativas o redes sociales.</p>
+                    </div>
+                    <div class="guide-card">
+                        <div class="guide-icon">👨‍🎓</div>
+                        <h3>Para Estudiantes</h3>
+                        <p>Accede a textos y cuadernos de tu grado. Descarga los recursos para estudiar sin conexión. Organiza tu biblioteca personal por materias.</p>
+                    </div>
+                    <div class="guide-card">
+                        <div class="guide-icon">👨‍👩‍👧</div>
+                        <h3>Para Familias</h3>
+                        <p>Acompaña el aprendizaje de tus hijos revisando las guías y actividades. Descarga materiales para reforzar en casa lo aprendido en el colegio.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Biblioteca Virtual MINEDU - Elmer & Gilbert</p>
+        </div>
+    </footer>
+
+    <script src="../src/js/main.js"></script>
+    <script src="../src/js/navigation.js"></script>
+</body>
+</html>

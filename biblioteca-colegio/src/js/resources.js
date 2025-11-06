@@ -2,7 +2,7 @@ let resourcesData = null;
 
 
 const subjectInfo = {
-    'General': {
+    'Texto de Aprendizaje': {
         icon: '📚',
         description: 'Material integral de aprendizaje oficial del MINEDU',
         color: '#6366f1'

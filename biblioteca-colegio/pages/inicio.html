@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Biblioteca Virtual MINEDU</title>
+    <link rel="stylesheet" href="../src/css/styles.css">
+    <link rel="stylesheet" href="../src/css/components.css">
+    <link rel="stylesheet" href="../src/css/responsive.css">
+    <link rel="stylesheet" href="../src/css/inicio.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="container">
+            <div class="nav-content">
+                <div class="brand">
+                    <img src="../src/img/logocolegio.png" alt="Logo Guadalupe" class="nav-logo">
+                    <span>Biblioteca Virtual</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="inicio.html" class="active">Inicio</a></li>
+                    <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="selecciona-tu-nivel.html">Selecciona tu Nivel</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-header">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Bienvenidos a la Biblioteca Virtual</h1>
+                    <p class="hero-subtitle">Unidad Educativa Técnico Humanístico Guadalupe</p>
+                    <p class="hero-description">Accede a recursos educativos oficiales del MINEDU para todos los niveles educativos</p>
+                    <div class="hero-buttons">
+                        <a href="selecciona-tu-nivel.html" class="btn btn-primary">Explorar Niveles</a>
+                        <a href="nosotros.html" class="btn btn-secondary">Conocer Más</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="stats-preview">
+                        <div class="stat-item">
+                            <span class="stat-number" id="totalResources">0</span>
+                            <span class="stat-label">Recursos</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">Niveles</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" id="totalSubjects">0</span>
+                            <span class="stat-label">Materias</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <!-- Buscador Global -->
+        <section class="search-section">
+            <div class="container">
+                <h2>Buscar Recursos</h2>
+                <p class="section-subtitle">Encuentra textos, cuadernos y guías por título, autor, materia o nivel</p>
+                <div class="search-box">
+                    <input 
+                        type="text" 
+                        id="globalSearchInput" 
+                        class="search-input" 
+                        placeholder="🔍 Buscar por título, autor, materia o nivel educativo..."
+                    >
+                </div>
+                <div id="searchResults" class="search-results-container" style="display: none;">
+                    <h3>Resultados de búsqueda (<span id="resultsCount">0</span>)</h3>
+                    <div class="materials-grid" id="searchResultsGrid">
+                        <!-- Los resultados se cargarán dinámicamente aquí -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Accesos Rápidos -->
+        <section class="quick-access">
+            <div class="container">
+                <h2>Acceso Rápido por Nivel</h2>
+                <div class="quick-grid">
+                    <a href="inicial.html" class="quick-card">
+                        <div class="quick-icon">👶</div>
+                        <h3>Inicial</h3>
+                        <p>Prekínder y Kínder</p>
+                        <span class="quick-arrow">→</span>
+                    </a>
+                    <a href="primaria.html" class="quick-card">
+                        <div class="quick-icon">📚</div>
+                        <h3>Primaria</h3>
+                        <p>1° a 6° de Primaria</p>
+                        <span class="quick-arrow">→</span>
+                    </a>
+                    <a href="secundaria.html" class="quick-card">
+                        <div class="quick-icon">🎓</div>
+                        <h3>Secundaria</h3>
+                        <p>1° a 6° de Secundaria</p>
+                        <span class="quick-arrow">→</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cómo usar -->
+        <section class="how-to-use">
+            <div class="container">
+                <h2>¿Cómo usar la biblioteca?</h2>
+                <div class="steps-grid">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h3>Busca o Selecciona</h3>
+                        <p>Usa el buscador o navega por niveles educativos</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h3>Explora Materias</h3>
+                        <p>Selecciona el grado y la materia de tu interés</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h3>Descarga</h3>
+                        <p>Obtén los recursos en PDF de forma gratuita</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Características -->
+        <section class="features">
+            <div class="container">
+                <h2>Características de nuestra biblioteca</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <span class="feature-icon">✅</span>
+                        <h3>Recursos Oficiales</h3>
+                        <p>Materiales verificados y aprobados por el MINEDU</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">🆓</span>
+                        <h3>Acceso Gratuito</h3>
+                        <p>Todos los recursos disponibles sin costo alguno</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">📱</span>
+                        <h3>Multiplataforma</h3>
+                        <p>Accede desde cualquier dispositivo con internet</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">🔄</span>
+                        <h3>Actualizado</h3>
+                        <p>Contenido actualizado para la gestión 2025</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Biblioteca Virtual MINEDU - Elmer & Gilbert</p>
+        </div>
+    </footer>
+
+    <script src="../src/js/main.js"></script>
+    <script src="../src/js/navigation.js"></script>
+    <script src="../src/js/resources.js"></script>
+    <script src="../src/js/search.js"></script>
+    <script>
+        // Calcular estadísticas
+        document.addEventListener('DOMContentLoaded', async function() {
+            await loadResources();
+            
+            if (resourcesData) {
+                let totalMaterials = 0;
+                const subjects = new Set();
+                
+                for (const nivel in resourcesData) {
+                    for (const grado in resourcesData[nivel]) {
+                        for (const materia in resourcesData[nivel][grado]) {
+                            subjects.add(materia);
+                            const materialesArray = resourcesData[nivel][grado][materia].materiales;
+                            totalMaterials += materialesArray.length;
+                        }
+                    }
+                }
+                
+                animateNumber(document.getElementById('totalResources'), totalMaterials);
+                animateNumber(document.getElementById('totalSubjects'), subjects.size);
+            }
+        });
+
+        function animateNumber(element, target) {
+            if (!element) return;
+            let current = 0;
+            const increment = Math.ceil(target / 50);
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    element.textContent = target;
+                    clearInterval(timer);
+                } else {
+                    element.textContent = current;
+                }
+            }, 30);
+        }
+    </script>
+</body>
+</html>
