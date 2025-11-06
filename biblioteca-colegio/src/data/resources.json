@@ -67,7 +67,7 @@
   },
   "primaria": {
     "1": {
-      "General": {
+      "Texto de Aprendizaje": {
         "materiales": [
           {
             "id": "1p_texto",
@@ -79,12 +79,45 @@
             "grado": 1,
             "descripcion": "Texto oficial de aprendizaje para 1° de Primaria. Material integral que desarrolla todas las competencias del nivel.",
             "url": "../src/data/1p_textoaprendizaje.pdf"
+          },
+          {
+            "id": "1p_primer_trimestre",
+            "titulo": "Primer Trimestre 1° Primaria - MINEDU",
+            "tipo": "cuaderno_trabajo",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "10 MB",
+            "grado": 1,
+            "descripcion": "Material de trabajo para el primer trimestre de 1° de Primaria.",
+            "url": "../src/data/1p_primertrimestre.pdf"
+          },
+          {
+            "id": "1p_segundo_trimestre",
+            "titulo": "Segundo Trimestre 1° Primaria - MINEDU",
+            "tipo": "cuaderno_trabajo",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "14 MB",
+            "grado": 1,
+            "descripcion": "Material de trabajo para el segundo trimestre de 1° de Primaria.",
+            "url": "../src/data/1p_segundotrimestre.pdf"
+          },
+          {
+            "id": "1p_tercer_trimestre",
+            "titulo": "Tercer Trimestre 1° Primaria - MINEDU",
+            "tipo": "cuaderno_trabajo",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "12 MB",
+            "grado": 1,
+            "descripcion": "Material de trabajo para el tercer trimestre de 1° de Primaria.",
+            "url": "../src/data/1p_tercertrimestre.pdf"
           }
         ]
       }
     },
     "2": {
-      "General": {
+      "Texto de Aprendizaje": {
         "materiales": [
           {
             "id": "2p_robotica",
@@ -131,7 +164,7 @@
       }
     },
     "3": {
-      "General": {
+      "Texto de Aprendizaje": {
         "materiales": [
           {
             "id": "3p_texto",
@@ -251,7 +284,7 @@
       }
     },
     "5": {
-      "General": {
+      "Texto de Aprendizaje": {
         "materiales": [
           {
             "id": "5p_texto",
@@ -309,7 +342,7 @@
       }
     },
     "6": {
-      "General": {
+      "Texto de Aprendizaje": {
         "materiales": [
           {
             "id": "6p_texto",
@@ -384,7 +417,7 @@
   },
   "secundaria": {
     "1": {
-      "General": {
+      "Texto de Aprendizaje": {
         "materiales": [
           {
             "id": "1s_texto",
@@ -446,7 +479,7 @@
       }
     },
     "2": {
-      "General": {
+      "Texto de Aprendizaje": {
         "materiales": [
           {
             "id": "2s_texto",
@@ -508,7 +541,7 @@
       }
     },
     "3": {
-      "General": {
+      "Texto de Aprendizaje": {
         "materiales": [
           {
             "id": "3s_texto",
@@ -538,18 +571,18 @@
           }
         ]
       },
-      "Técnica Tecnológica General": {
+      "Técnica Tecnológica Texto de Aprendizaje": {
         "materiales": [
           {
             "id": "3s_tecnica",
-            "titulo": "Técnica Tecnológica General 3° Secundaria",
+            "titulo": "Técnica Tecnológica Texto de Aprendizaje 3° Secundaria",
             "tipo": "libro_texto",
             "autor": "MINEDU",
             "formato": "PDF",
             "tamaño": "N/A",
             "grado": 3,
             "descripcion": "Material de técnica y tecnología para 3° de Secundaria.",
-            "url": "../src/data/3s_tecnicatecnologicageneral.pdf"
+            "url": "../src/data/3s_tecnicatecnologicaTexto de Aprendizaje.pdf"
           }
         ]
       },
@@ -570,7 +603,7 @@
       }
     },
     "4": {
-      "General": {
+      "Texto de Aprendizaje": {
         "materiales": [
           {
             "id": "4s_texto",
@@ -632,7 +665,7 @@
       }
     },
     "5": {
-      "General": {
+      "Texto de Aprendizaje": {
         "materiales": [
           {
             "id": "5s_texto",
@@ -694,7 +727,7 @@
       }
     },
     "6": {
-      "General": {
+      "Texto de Aprendizaje": {
         "materiales": [
           {
             "id": "6s_texto",
@@ -706,9 +739,76 @@
             "grado": 6,
             "descripcion": "Texto oficial de aprendizaje para 6° de Secundaria. Material integral que desarrolla todas las competencias del nivel.",
             "url": "../src/data/6s_textoaprendizaje.pdf"
+          },
+          {
+            "id": "6s_biologiaygeografia",
+            "titulo": "Biología y Geografía 6° Secundaria - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "18 MB",
+            "grado": 6,
+            "descripcion": "Material de Biología y Geografía para 6° de Secundaria.",
+            "url": "../src/data/6s_biologiaygeografia.pdf"
+          },
+          {
+            "id": "6s_cienciassociales",
+            "titulo": "Ciencias Sociales 6° Secundaria - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "9 MB",
+            "grado": 6,
+            "descripcion": "Material de Ciencias Sociales para 6° de Secundaria.",
+            "url": "../src/data/6s_cienciassociales.pdf"
+          },
+          {
+            "id": "6s_fisica",
+            "titulo": "Física 6° Secundaria - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "12 MB",
+            "grado": 6,
+            "descripcion": "Material de Física para 6° de Secundaria.",
+            "url": "../src/data/6s_fisica.pdf"
+          },
+          {
+            "id": "6s_lenguacastellana",
+            "titulo": "Lengua Castellana 6° Secundaria - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "13 MB",
+            "grado": 6,
+            "descripcion": "Material de Lengua Castellana para 6° de Secundaria.",
+            "url": "../src/data/6s_lenguacastellana.pdf"
+          },
+          {
+            "id": "6s_matematicas",
+            "titulo": "Matemáticas 6° Secundaria - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "10 MB",
+            "grado": 6,
+            "descripcion": "Material de Matemáticas para 6° de Secundaria.",
+            "url": "../src/data/6s_matematicas.pdf"
+          },
+          {
+            "id": "6s_quimica",
+            "titulo": "Química 6° Secundaria - MINEDU",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "10 MB",
+            "grado": 6,
+            "descripcion": "Material de Química para 6° de Secundaria.",
+            "url": "../src/data/6s_quimica.pdf"
           }
         ]
       },
+
       "Artes Plásticas y Visuales": {
         "materiales": [
           {
