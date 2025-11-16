@@ -92,6 +92,22 @@
     flex-wrap: wrap;
 }
 
+.hero-image {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-main-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+
 .stats-preview {
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(10px);
@@ -100,6 +116,14 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.95);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .stat-item {
@@ -325,6 +349,10 @@
     
     .hero-buttons .btn {
         width: 100%;
+    }
+    
+    .hero-main-image {
+        max-width: 100%;
     }
 }
 
