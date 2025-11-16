@@ -1,6 +1,6 @@
 /* Navegación - misma que las anteriores */
 .main-nav {
-    background-color: white;
+    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
@@ -20,7 +20,7 @@
     gap: 0.75rem;
     font-size: 1.1rem;
     font-weight: 700;
-    color: var(--primary-color);
+    color: white;
 }
 
 .nav-logo {
@@ -28,7 +28,7 @@
     height: 50px;
     object-fit: contain;
     border-radius: 50%;
-    background-color: rgba(30, 64, 175, 0.1);
+    background-color: rgba(255, 255, 255, 0.2);
     padding: 0.3rem;
 }
 
@@ -41,7 +41,7 @@
 
 .nav-menu a {
     text-decoration: none;
-    color: var(--dark-color);
+    color: white;
     font-weight: 500;
     padding: 0.5rem 1rem;
     border-radius: var(--border-radius);
@@ -50,13 +50,13 @@
 
 .nav-menu a:hover,
 .nav-menu a.active {
-    background-color: rgba(30, 64, 175, 0.1);
-    color: var(--primary-color);
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
 }
 
 /* Page Header */
 .page-header {
-    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #60a5fa 100%);
+    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 50%, #ffa500 100%);
     color: white;
     padding: 3rem 0;
     text-align: center;
@@ -77,7 +77,7 @@
 /* Levels Section */
 .levels-section {
     padding: 3rem 0;
-    background-color: white;
+    background-color: var(--blue-dark);
 }
 
 .levels-grid {
@@ -87,10 +87,10 @@
 }
 
 .level-card {
-    background-color: white;
+    background-color: var(--blue-medium);
     border-radius: 16px;
     padding: 2.5rem;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     transition: var(--transition);
     border: 2px solid transparent;
     position: relative;
@@ -143,21 +143,21 @@
 }
 
 .level-card h3 {
-    color: var(--primary-color);
+    color: white;
     font-size: 1.75rem;
     margin-bottom: 1rem;
     text-align: center;
 }
 
 .level-description {
-    color: var(--gray-color);
+    color: #e2e8f0;
     line-height: 1.7;
     margin-bottom: 1.5rem;
     text-align: center;
 }
 
 .level-info {
-    background-color: var(--light-color);
+    background-color: var(--blue-dark);
     border-radius: var(--border-radius);
     padding: 1.25rem;
     margin-bottom: 1.5rem;
@@ -168,7 +168,7 @@
     align-items: center;
     gap: 0.75rem;
     margin-bottom: 0.75rem;
-    color: var(--gray-color);
+    color: #cbd5e1;
 }
 
 .info-item:last-child {
@@ -186,12 +186,12 @@
 /* Usage Guide */
 .usage-guide {
     padding: 3rem 0;
-    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
 }
 
 .usage-guide h2 {
     text-align: center;
-    color: var(--primary-color);
+    color: white;
     margin-bottom: 2.5rem;
 }
 
@@ -202,7 +202,7 @@
 }
 
 .guide-card {
-    background-color: white;
+    background-color: var(--blue-medium);
     padding: 2rem;
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
@@ -221,13 +221,13 @@
 }
 
 .guide-card h3 {
-    color: var(--primary-color);
+    color: white;
     margin-bottom: 1rem;
     font-size: 1.3rem;
 }
 
 .guide-card p {
-    color: var(--gray-color);
+    color: #e2e8f0;
     line-height: 1.7;
 }
 
