@@ -13,6 +13,17 @@
             "grado": "Prekínder",
             "descripcion": "Material de tecnología y producción para nivel inicial.",
             "url": "../src/data/inicial_cartillatecnologiayproduccion.pdf"
+          },
+          {
+            "id": "pre_nuevas_tec",
+            "titulo": "Uso de Nuevas Tecnologías de 0 a 6 años",
+            "tipo": "libro_texto",
+            "autor": "Trabajo de Grado",
+            "formato": "PDF",
+            "tamaño": "2 MB",
+            "grado": "Prekínder",
+            "descripcion": "Trabajo de grado sobre el uso de nuevas tecnologías en educación inicial.",
+            "url": "../src/data/prekinder_usodenuevastecnologiasde0a6años.pdf"
           }
         ]
       },
@@ -28,6 +39,17 @@
             "grado": "Prekínder",
             "descripcion": "Material de cosmos y pensamiento para nivel inicial.",
             "url": "../src/data/inicial_cosmos_y_pensamiento.pdf"
+          },
+          {
+            "id": "pre_guia_belen",
+            "titulo": "Guía Docente Belén - Prekínder",
+            "tipo": "guia",
+            "autor": "Belén",
+            "formato": "PDF",
+            "tamaño": "13 MB",
+            "grado": "Prekínder",
+            "descripcion": "Guía docente para cosmos y pensamiento en prekínder.",
+            "url": "../src/data/prekinder_guiadocentebelen.pdf"
           }
         ]
       }
@@ -60,6 +82,17 @@
             "grado": "Kínder",
             "descripcion": "Material de cosmos y pensamiento para nivel inicial.",
             "url": "../src/data/inicial_cosmos_y_pensamiento.pdf"
+          },
+          {
+            "id": "kin_libro_ninos",
+            "titulo": "Libro de los Niños - Kínder",
+            "tipo": "libro_texto",
+            "autor": "MINEDU",
+            "formato": "PDF",
+            "tamaño": "11 MB",
+            "grado": "Kínder",
+            "descripcion": "Libro de aprendizaje de cosmos y pensamiento para niños de kínder.",
+            "url": "../src/data/kinder_librodelosniños.pdf"
           }
         ]
       }
@@ -144,6 +177,28 @@
             "grado": 2,
             "descripcion": "Texto oficial de Inglés para 2° de Primaria.",
             "url": "../src/data/2p_ingles.pdf"
+          },
+          {
+            "id": "2p_bounce",
+            "titulo": "Bounce - Libro de Inglés 2° Primaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "3 MB",
+            "grado": 2,
+            "descripcion": "Libro de inglés Bounce para 2° de Primaria.",
+            "url": "../src/data/2p_bouncelibrodeinglés.pdf"
+          },
+          {
+            "id": "2p_ilikeenglish",
+            "titulo": "I Like English 2° Primaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "4 MB",
+            "grado": 2,
+            "descripcion": "Libro de inglés I Like English para 2° de Primaria.",
+            "url": "../src/data/2p_ilikeenglish.pdf"
           }
         ]
       },
@@ -159,6 +214,28 @@
             "grado": 2,
             "descripcion": "Material de valores, espiritualidad y religiones para 2° de Primaria.",
             "url": "../src/data/2p_valoresyreligiones.pdf"
+          },
+          {
+            "id": "2p_religion_resumido",
+            "titulo": "Religión Resumido 2° Primaria",
+            "tipo": "complementario",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "4 MB",
+            "grado": 2,
+            "descripcion": "Material resumido de religión para 2° de Primaria.",
+            "url": "../src/data/2p_religionresumido.pdf"
+          },
+          {
+            "id": "2p_religion_santillana",
+            "titulo": "Religión Católica Santillana 2° Primaria",
+            "tipo": "libro_texto",
+            "autor": "Santillana",
+            "formato": "PDF",
+            "tamaño": "2 MB",
+            "grado": 2,
+            "descripcion": "Libro de religión católica editorial Santillana para 2° de Primaria.",
+            "url": "../src/data/2p_religioncatolicasantillana.pdf"
           }
         ]
       }
@@ -202,6 +279,28 @@
             "grado": 3,
             "descripcion": "Texto oficial de Inglés para 3° de Primaria.",
             "url": "../src/data/3p_ingles.pdf"
+          },
+          {
+            "id": "3p_writingskills",
+            "titulo": "Writing Skills 3° Primaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "4 MB",
+            "grado": 3,
+            "descripcion": "Desarrollo de habilidades de escritura en inglés para 3° de Primaria.",
+            "url": "../src/data/3p_writingskills.pdf"
+          },
+          {
+            "id": "3p_englishwithyou",
+            "titulo": "English With You 3° Primaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "3 MB",
+            "grado": 3,
+            "descripcion": "Libro de inglés English With You para 3° de Primaria.",
+            "url": "../src/data/3p_englishwithyou.pdf"
           }
         ]
       },
@@ -217,6 +316,17 @@
             "grado": 3,
             "descripcion": "Material de valores, espiritualidad y religiones para 3° de Primaria.",
             "url": "../src/data/3p_valoresyreligiomes.pdf"
+          },
+          {
+            "id": "3p_religion_sanpablo",
+            "titulo": "Religión Católica San Pablo 3° Primaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial San Pablo",
+            "formato": "PDF",
+            "tamaño": "2 MB",
+            "grado": 3,
+            "descripcion": "Libro de religión católica editorial San Pablo para 3° de Primaria.",
+            "url": "../src/data/3p_religioncatolicasanpablo.pdf"
           }
         ]
       }
@@ -234,6 +344,28 @@
             "grado": 4,
             "descripcion": "Texto oficial de Lenguaje para 4° de Primaria. Desarrolla competencias de lectura, escritura y comunicación oral.",
             "url": "../src/data/4toprimariaminedu.pdf"
+          },
+          {
+            "id": "4p_espanol",
+            "titulo": "Español Cuarto Grado 4° Primaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "3 MB",
+            "grado": 4,
+            "descripcion": "Libro de español para cuarto grado de Primaria.",
+            "url": "../src/data/4p_españolcuartogrado.pdf"
+          },
+          {
+            "id": "4p_lenguacastellana",
+            "titulo": "Lengua Castellana 4° Primaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "4 MB",
+            "grado": 4,
+            "descripcion": "Libro de lengua castellana para 4° de Primaria.",
+            "url": "../src/data/4p_lenguacastellana.pdf"
           }
         ]
       },
@@ -249,21 +381,54 @@
             "grado": 4,
             "descripcion": "Texto oficial de Robótica para 4° de Primaria. Desarrolla competencias de razonamiento lógico y resolución de problemas.",
             "url": "../src/data/4p_robotica.pdf"
+          },
+          {
+            "id": "4p_robotica_facil",
+            "titulo": "Así de Fácil Robótica 4° Primaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "2 MB",
+            "grado": 4,
+            "descripcion": "Material didáctico de robótica para 4° de Primaria.",
+            "url": "../src/data/4p_asídefácilrobótica.pdf"
           }
         ]
       },
       "Inglés": {
         "materiales": [
           {
-            "id": "4p_ingles",
-            "titulo": "Inglés 4° Primaria - MINEDU",
+            "id": "4s_ingles",
+            "titulo": "Inglés 4° Secundaria - MINEDU",
             "tipo": "libro_texto",
             "autor": "MINEDU",
             "formato": "PDF",
-            "tamaño": "10 MB",
+            "tamaño": "N/A",
             "grado": 4,
-            "descripcion": "Texto oficial de Inglés para 4° de Primaria.",
-            "url": "../src/data/4p_ingles.pdf"
+            "descripcion": "Texto oficial de Inglés para 4° de Secundaria.",
+            "url": "../src/data/4s_ingles.pdf"
+          },
+          {
+            "id": "4s_newroads",
+            "titulo": "New Roads to English 4° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "17 MB",
+            "grado": 4,
+            "descripcion": "Libro de inglés New Roads to English para 4° de Secundaria.",
+            "url": "../src/data/4s_newroadstoenglish.pdf"
+          },
+          {
+            "id": "4s_lenguas_extranjeras",
+            "titulo": "Lenguas Extranjeras 4° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "13 MB",
+            "grado": 4,
+            "descripcion": "Libro de lenguas extranjeras para 4° de Secundaria.",
+            "url": "../src/data/4s_lenguasextranjeras.pdf"
           }
         ]
       },
@@ -279,6 +444,28 @@
             "grado": 4,
             "descripcion": "Material de valores, espiritualidad y religiones para 4° de Primaria.",
             "url": "../src/data/4p_valoresyreligiones.pdf"
+          },
+          {
+            "id": "4p_religion_cafarnaun",
+            "titulo": "Religión Católica Proyecto Cafarnaún 4° Primaria",
+            "tipo": "libro_texto",
+            "autor": "Proyecto Cafarnaún",
+            "formato": "PDF",
+            "tamaño": "1 MB",
+            "grado": 4,
+            "descripcion": "Libro de religión católica Proyecto Cafarnaún para 4° de Primaria.",
+            "url": "../src/data/4p_religioncatolicaproyectocafarnaun.pdf"
+          },
+          {
+            "id": "4p_guia_religion",
+            "titulo": "Guía Didáctica Religión 4° Primaria",
+            "tipo": "guia",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "2 MB",
+            "grado": 4,
+            "descripcion": "Guía didáctica de religión para 4° de Primaria.",
+            "url": "../src/data/4p_guíadidacticareligion.pdf"
           }
         ]
       }
@@ -322,6 +509,17 @@
             "grado": 5,
             "descripcion": "Texto oficial de Inglés para 5° de Primaria.",
             "url": "../src/data/5p_ingles.pdf"
+          },
+          {
+            "id": "5p_englishcome",
+            "titulo": "English Come 5° Primaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "12 MB",
+            "grado": 5,
+            "descripcion": "Libro de inglés English Come para 5° de Primaria.",
+            "url": "../src/data/5p_englishcome.pdf"
           }
         ]
       },
@@ -337,6 +535,28 @@
             "grado": 5,
             "descripcion": "Material de educación musical para 5° de Primaria.",
             "url": "../src/data/5p_musica.pdf"
+          },
+          {
+            "id": "5p_acordes",
+            "titulo": "Música Acordes Santillana 5° Primaria",
+            "tipo": "libro_texto",
+            "autor": "Santillana",
+            "formato": "PDF",
+            "tamaño": "N/A",
+            "grado": 5,
+            "descripcion": "Libro de música Acordes de Santillana para 5° de Primaria.",
+            "url": "../src/data/5p_musicaacordessantillana.pdf"
+          },
+          {
+            "id": "5p_cuadernillo",
+            "titulo": "Cuadernillo de Música 5° Primaria",
+            "tipo": "cuaderno_trabajo",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "13 MB",
+            "grado": 5,
+            "descripcion": "Cuadernillo de trabajo de música para 5° de Primaria.",
+            "url": "../src/data/5p_cuadernillodemusica.pdf"
           }
         ]
       }
@@ -380,21 +600,28 @@
             "grado": 6,
             "descripcion": "Texto oficial de Inglés para 6° de Primaria.",
             "url": "../src/data/6p_ingles.pdf"
-          }
-        ]
-      },
-      "Valores y Religiones": {
-        "materiales": [
+          },
           {
-            "id": "6p_valores",
-            "titulo": "Valores y Religiones 6° Primaria",
+            "id": "6p_englishcome",
+            "titulo": "English Come 6° Primaria",
             "tipo": "libro_texto",
-            "autor": "MINEDU",
+            "autor": "Editorial",
             "formato": "PDF",
-            "tamaño": "N/A",
+            "tamaño": "14 MB",
             "grado": 6,
-            "descripcion": "Material de valores, espiritualidad y religiones para 6° de Primaria.",
-            "url": "../src/data/6p_valoresyreligiones.pdf"
+            "descripcion": "Libro de inglés English Come para 6° de Primaria.",
+            "url": "../src/data/6p_englishcome.pdf"
+          },
+          {
+            "id": "6p_ilikeenglish",
+            "titulo": "I Like English 6° Primaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "5 MB",
+            "grado": 6,
+            "descripcion": "Libro de inglés I Like English para 6° de Primaria.",
+            "url": "../src/data/6p_ilikeenglish.pdf"
           }
         ]
       },
@@ -410,6 +637,28 @@
             "grado": 6,
             "descripcion": "Material de educación artística para 6° de Primaria.",
             "url": "../src/data/6p_artesplasticasyvisuales.pdf"
+          },
+          {
+            "id": "6p_educacion_artistica",
+            "titulo": "Educación Artística 6° Primaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "12 MB",
+            "grado": 6,
+            "descripcion": "Libro de educación artística para 6° de Primaria.",
+            "url": "../src/data/6p_educacionartística.pdf"
+          },
+          {
+            "id": "6p_guia_dibujo",
+            "titulo": "Guía Dibujo y Pintura 6° Primaria",
+            "tipo": "guia",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "10 MB",
+            "grado": 6,
+            "descripcion": "Guía de dibujo y pintura para 6° de Primaria.",
+            "url": "../src/data/6p_guiadibujoypintura.pdf"
           }
         ]
       }
@@ -444,6 +693,17 @@
             "grado": 1,
             "descripcion": "Material de educación artística para 1° de Secundaria.",
             "url": "../src/data/1s_artesplasticasyvisuales.pdf"
+          },
+          {
+            "id": "1s_dibujo_tecnico",
+            "titulo": "Dibujo Técnico 1° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "13 MB",
+            "grado": 1,
+            "descripcion": "Libro de dibujo técnico para 1° de Secundaria.",
+            "url": "../src/data/1s_dibujotécnico.pdf"
           }
         ]
       },
@@ -459,6 +719,28 @@
             "grado": 1,
             "descripcion": "Material de filosofía y psicología para 1° de Secundaria.",
             "url": "../src/data/1s_filosofiaypsicologia.pdf"
+          },
+          {
+            "id": "1s_psicologia_kipus",
+            "titulo": "Psicología Editorial Kipus 1° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial Kipus",
+            "formato": "PDF",
+            "tamaño": "2 MB",
+            "grado": 1,
+            "descripcion": "Libro de psicología editorial Kipus para 1° de Secundaria.",
+            "url": "../src/data/1s_psicologiaeditorialkipus.pdf"
+          },
+          {
+            "id": "1s_descubriendo_psicologia",
+            "titulo": "Descubriendo la Psicología con Manuel Calviño 1° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "Manuel Calviño",
+            "formato": "PDF",
+            "tamaño": "22 MB",
+            "grado": 1,
+            "descripcion": "Libro de psicología con enfoque didáctico para 1° de Secundaria.",
+            "url": "../src/data/1s_descubriendolapsicologiaconManuelCalviño.pdf"
           }
         ]
       },
@@ -474,6 +756,17 @@
             "grado": 1,
             "descripcion": "Material de educación musical para 1° de Secundaria.",
             "url": "../src/data/1s_musica.pdf"
+          },
+          {
+            "id": "1s_educacion_musical",
+            "titulo": "Educación Musical 1° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "14 MB",
+            "grado": 1,
+            "descripcion": "Libro de educación musical para 1° de Secundaria.",
+            "url": "../src/data/1s_educacionmusical.pdf"
           }
         ]
       }
@@ -506,6 +799,17 @@
             "grado": 2,
             "descripcion": "Material de educación artística para 2° de Secundaria.",
             "url": "../src/data/2s_artesplasticasyvisuales.pdf"
+          },
+          {
+            "id": "2s_dibujo_artistico",
+            "titulo": "Dibujo Artístico ESO Santillana 2° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "Santillana",
+            "formato": "PDF",
+            "tamaño": "13 MB",
+            "grado": 2,
+            "descripcion": "Libro de dibujo artístico Santillana para 2° de Secundaria.",
+            "url": "../src/data/2s_dibujoartisticoESOsantillana.pdf"
           }
         ]
       },
@@ -521,6 +825,17 @@
             "grado": 2,
             "descripcion": "Material de filosofía y psicología para 2° de Secundaria.",
             "url": "../src/data/2s_filosofiaypsicologia.pdf"
+          },
+          {
+            "id": "2s_psicologia_kipus",
+            "titulo": "Psicología Editorial Kipus 2° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial Kipus",
+            "formato": "PDF",
+            "tamaño": "12 MB",
+            "grado": 2,
+            "descripcion": "Libro de psicología editorial Kipus para 2° de Secundaria.",
+            "url": "../src/data/2s_psicologiaeditorialkipus.pdf"
           }
         ]
       },
@@ -536,6 +851,17 @@
             "grado": 2,
             "descripcion": "Material de educación musical para 2° de Secundaria.",
             "url": "../src/data/2s_musica.pdf"
+          },
+          {
+            "id": "2s_cuadernillo_musica",
+            "titulo": "Cuadernillo de Trabajo Música en Aula 2° Secundaria",
+            "tipo": "cuaderno_trabajo",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "14 MB",
+            "grado": 2,
+            "descripcion": "Cuadernillo de trabajo de música en aula para 2° de Secundaria.",
+            "url": "../src/data/2s_cuadernillodetrabajomusicaenaula.pdf"
           }
         ]
       }
@@ -568,6 +894,17 @@
             "grado": 3,
             "descripcion": "Material de filosofía y psicología para 3° de Secundaria.",
             "url": "../src/data/3s_filosofiaypsicologia.pdf"
+          },
+          {
+            "id": "3s_psicologia_kipus",
+            "titulo": "Psicología Editorial Kipus 3° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial Kipus",
+            "formato": "PDF",
+            "tamaño": "3 MB",
+            "grado": 3,
+            "descripcion": "Libro de psicología editorial Kipus para 3° de Secundaria.",
+            "url": "../src/data/3s_psicologiaeditorialkipus.pdf"
           }
         ]
       },
@@ -598,6 +935,17 @@
             "grado": 3,
             "descripcion": "Material de educación musical para 3° de Secundaria.",
             "url": "../src/data/3s_musica.pdf"
+          },
+          {
+            "id": "3s_educacion_musical",
+            "titulo": "Educación Musical Secundaria 3° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "4 MB",
+            "grado": 3,
+            "descripcion": "Libro de educación musical para 3° de Secundaria.",
+            "url": "../src/data/3s_educacionmusicalsecundaria.pdf"
           }
         ]
       }
@@ -630,36 +978,65 @@
             "grado": 4,
             "descripcion": "Texto oficial de Inglés para 4° de Secundaria.",
             "url": "../src/data/4s_ingles.pdf"
+          },
+          {
+            "id": "4s_newroads",
+            "titulo": "New Roads to English 4° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "17 MB",
+            "grado": 4,
+            "descripcion": "Libro de inglés New Roads to English para 4° de Secundaria.",
+            "url": "../src/data/4s_newroadstoenglish.pdf"
+          },
+          {
+            "id": "4s_lenguas_extranjeras",
+            "titulo": "Lenguas Extranjeras 4° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "13 MB",
+            "grado": 4,
+            "descripcion": "Libro de lenguas extranjeras para 4° de Secundaria.",
+            "url": "../src/data/4s_lenguasextranjeras.pdf"
           }
         ]
       },
-      "Música": {
+      "Valores y Religiones": {
         "materiales": [
           {
-            "id": "4s_musica",
-            "titulo": "Música 4° Secundaria",
+            "id": "4p_valores",
+            "titulo": "Valores y Religiones 4° Primaria",
             "tipo": "libro_texto",
             "autor": "MINEDU",
             "formato": "PDF",
-            "tamaño": "N/A",
+            "tamaño": "4 MB",
             "grado": 4,
-            "descripcion": "Material de educación musical para 4° de Secundaria.",
-            "url": "../src/data/4s_musica.pdf"
-          }
-        ]
-      },
-      "Psicología y Filosofía": {
-        "materiales": [
+            "descripcion": "Material de valores, espiritualidad y religiones para 4° de Primaria.",
+            "url": "../src/data/4p_valoresyreligiones.pdf"
+          },
           {
-            "id": "4s_psicologia",
-            "titulo": "Psicología y Filosofía 4° Secundaria",
+            "id": "4p_religion_cafarnaun",
+            "titulo": "Religión Católica Proyecto Cafarnaún 4° Primaria",
             "tipo": "libro_texto",
-            "autor": "MINEDU",
+            "autor": "Proyecto Cafarnaún",
             "formato": "PDF",
-            "tamaño": "N/A",
+            "tamaño": "1 MB",
             "grado": 4,
-            "descripcion": "Material de psicología y filosofía para 4° de Secundaria.",
-            "url": "../src/data/4s_psicologiayfilosofia.pdf"
+            "descripcion": "Libro de religión católica Proyecto Cafarnaún para 4° de Primaria.",
+            "url": "../src/data/4p_religioncatolicaproyectocafarnaun.pdf"
+          },
+          {
+            "id": "4p_guia_religion",
+            "titulo": "Guía Didáctica Religión 4° Primaria",
+            "tipo": "guia",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "2 MB",
+            "grado": 4,
+            "descripcion": "Guía didáctica de religión para 4° de Primaria.",
+            "url": "../src/data/4p_guíadidacticareligion.pdf"
           }
         ]
       }
@@ -692,6 +1069,17 @@
             "grado": 5,
             "descripcion": "Texto oficial de Inglés para 5° de Secundaria.",
             "url": "../src/data/5s_ingles.pdf"
+          },
+          {
+            "id": "5s_lenguas_extranjeras",
+            "titulo": "Lenguas Extranjeras 5° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "3 MB",
+            "grado": 5,
+            "descripcion": "Libro de lenguas extranjeras para 5° de Secundaria.",
+            "url": "../src/data/5s_lenguasextranjeras.pdf"
           }
         ]
       },
@@ -707,6 +1095,17 @@
             "grado": 5,
             "descripcion": "Material de educación musical para 5° de Secundaria.",
             "url": "../src/data/5s_musica.pdf"
+          },
+          {
+            "id": "5s_flauta",
+            "titulo": "Flauta Mágica 5° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "10 MB",
+            "grado": 5,
+            "descripcion": "Libro de flauta mágica para 5° de Secundaria.",
+            "url": "../src/data/5s_flautamagica.pdf"
           }
         ]
       },
@@ -722,6 +1121,17 @@
             "grado": 5,
             "descripcion": "Material de filosofía y psicología para 5° de Secundaria.",
             "url": "../src/data/5s_filosofiaypsicologia.pdf"
+          },
+          {
+            "id": "5s_filosofia_pensamiento",
+            "titulo": "La Filosofía y Búsqueda de Pensamiento Propio 5° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "4 MB",
+            "grado": 5,
+            "descripcion": "Libro sobre filosofía y desarrollo del pensamiento propio para 5° de Secundaria.",
+            "url": "../src/data/5s_lafilosofiaybusquedadepensamientopropio.pdf"
           }
         ]
       }
@@ -821,6 +1231,28 @@
             "grado": 6,
             "descripcion": "Material de educación artística para 6° de Secundaria.",
             "url": "../src/data/6s_artesplasticasyvisuales.pdf"
+          },
+          {
+            "id": "6s_dibujo_tecnico_mcgraw",
+            "titulo": "Dibujo Técnico Bachillerato McGraw Hill 6° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "McGraw Hill",
+            "formato": "PDF",
+            "tamaño": "14 MB",
+            "grado": 6,
+            "descripcion": "Libro de dibujo técnico McGraw Hill para bachillerato.",
+            "url": "../src/data/6s_dibujotecnicobachilleratodeMcGrawHill.pdf"
+          },
+          {
+            "id": "6s_cuaderno_dibujo",
+            "titulo": "Cuaderno de Trabajo Dibujo 6° Secundaria",
+            "tipo": "cuaderno_trabajo",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "13 MB",
+            "grado": 6,
+            "descripcion": "Cuaderno de trabajo de dibujo para 6° de Secundaria.",
+            "url": "../src/data/6s-cuadernodetrabajodibujo.pdf"
           }
         ]
       },
@@ -836,6 +1268,28 @@
             "grado": 6,
             "descripcion": "Material de filosofía y psicología para 6° de Secundaria.",
             "url": "../src/data/6s_filosofiaypsicologia.pdf"
+          },
+          {
+            "id": "6s_antropologia_kipus",
+            "titulo": "Introducción a la Antropología Editorial Kipus 6° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial Kipus",
+            "formato": "PDF",
+            "tamaño": "3 MB",
+            "grado": 6,
+            "descripcion": "Introducción a la antropología editorial Kipus para 6° de Secundaria.",
+            "url": "../src/data/6s_introducciónalaantropologíaeditorialkipus.pdf"
+          },
+          {
+            "id": "6s_filosofia_comunitaria",
+            "titulo": "Filosofía Educación Comunitaria 6° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "60 MB",
+            "grado": 6,
+            "descripcion": "Material de filosofía y educación comunitaria para 6° de Secundaria.",
+            "url": "../src/data/6s_filosofiaeducacioncomunitaria.pdf"
           }
         ]
       },
@@ -851,6 +1305,28 @@
             "grado": 6,
             "descripcion": "Texto oficial de Inglés para 6° de Secundaria.",
             "url": "../src/data/6s_ingles.pdf"
+          },
+          {
+            "id": "6s_hiperlibro",
+            "titulo": "Hiperlibro de Inglés 2 - 6° Secundaria",
+            "tipo": "libro_texto",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "15 MB",
+            "grado": 6,
+            "descripcion": "Hiperlibro de inglés 2 para 6° de Secundaria.",
+            "url": "../src/data/6s_hiperlibrodeingles2.pdf"
+          },
+          {
+            "id": "6s_ejercicios_repaso",
+            "titulo": "Ejercicios de Repaso Inglés 6° Secundaria",
+            "tipo": "complementario",
+            "autor": "Editorial",
+            "formato": "PDF",
+            "tamaño": "1 MB",
+            "grado": 6,
+            "descripcion": "Ejercicios de repaso de inglés para 6° de Secundaria.",
+            "url": "../src/data/6s_ejerciciosderepasoingles.pdf"
           }
         ]
       },
@@ -866,21 +1342,17 @@
             "grado": 6,
             "descripcion": "Material de educación musical para 6° de Secundaria.",
             "url": "../src/data/6s_musica.pdf"
-          }
-        ]
-      },
-      "Valores y Religiones": {
-        "materiales": [
+          },
           {
-            "id": "6s_valores",
-            "titulo": "Valores y Religiones 6° Secundaria",
+            "id": "6s_teoria_musica",
+            "titulo": "Teoría de la Música 6° Secundaria",
             "tipo": "libro_texto",
-            "autor": "MINEDU",
+            "autor": "Editorial",
             "formato": "PDF",
             "tamaño": "10 MB",
             "grado": 6,
-            "descripcion": "Material de valores, espiritualidad y religiones para 6° de Secundaria.",
-            "url": "../src/data/6s_valoresyreligiones.pdf"
+            "descripcion": "Libro de teoría de la música para 6° de Secundaria.",
+            "url": "../src/data/6s_teoriadelamusica.pdf"
           }
         ]
       }

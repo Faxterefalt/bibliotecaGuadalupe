@@ -109,21 +109,18 @@
 }
 
 .stats-preview {
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
-    border-radius: 16px;
-    padding: 2rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
     position: absolute;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    background: rgba(255, 255, 255, 0.95);
+    background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
     padding: 1.5rem;
     border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
 }
 
 .stat-item {
@@ -137,11 +134,13 @@
     font-size: 2.5rem;
     font-weight: 700;
     display: block;
+    color: white;
 }
 
 .stat-label {
     font-size: 0.9rem;
-    opacity: 0.9;
+    color: white;
+    opacity: 0.95;
 }
 
 /* Search Section */

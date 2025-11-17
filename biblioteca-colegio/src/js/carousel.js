@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     let currentSlide = 0;
     let autoplayInterval;
-    const autoplayDelay = 4000; // 4 seconds
+    const autoplayDelay = 2000; 
 
     function showSlide(index) {
         // Remove active class from all slides and indicators
